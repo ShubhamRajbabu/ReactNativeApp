@@ -42,10 +42,6 @@ const Create = () => {
       if (selectType === "video") {
         setForm({ ...form, video: document.assets[0] });
       }
-      // } else {
-      //   setTimeout(() => {
-      //     Alert.alert("Document picked", JSON.stringify(document, null, 2));
-      //   }, 100);
     }
   };
 
